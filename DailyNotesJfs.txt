@@ -1,0 +1,130 @@
+on-1  off-0 ----->binary lang        --------------> ascii/unicode 
+
+programming languages -------------> program(set of instructions)
+
+					
+scripting lang - designing of website
+	
+
+programming lang - devlop sofware
+
+
+							computer langs
+									|
+					scripting lang		programming languages
+													|
+		html,css,bootstap,react....			pop			  oop	
+									Procedure orientedp 	object oriented p
+											basic,				java,.net,python...
+									
+security:-Encapsulation,Abstraction
+
+performance :-Inheritance,Ploymorphism
+
+
+java:-
+
+platform independent :- 
+
+
+Garbage collector :- 
+
+
+jse/j2se:-standalone app's -calculator(server-client)-core java
+
+
+jee/j2ee:-distributed app's-zomato(server-client)-Adv java
+
+
+jme/j2me:-mobile app's-details of core java
+
+	
+	shortcut's :-
+	
+		print ---->syso   ctrl+space
+	
+	
+	
+	
+	alphabets -----keywords(reserved word)'
+	
+	
+	
+	Datatypes :-  (1)primitive dt's 
+				(2)Non-primitive dt's
+				
+				
+	variables :-syntax 
+	
+				datatype varname;  ------>declaration of a variable
+					
+				datatype varname = value;   ------>initialization of a variable
+				
+				
+					local variable				global variables
+					
+											static				instance	
+											
+											
+syntax:- 
+
+static:- 		static  datatype varname = value; 
+
+instance :- 		datatype varname = value;
+
+
+Access:-
+
+static :- static prop's can be accessed by the class refernce
+
+instance :- instance props's can be acccessed by the object reference
+
+				syntax:- Classname objname = new Classname();
+				
+				
+				
+memory allocation :-
+
+static :- static prop's will get the memory space only once when the class loads into the jvm.
+
+instance :-instance prop's will get the memory space for every object creation.
+
+
+
+where to use :-
+
+static :- common data  ex:- nationality
+
+instance :- unique data  ex:-aadhar number
+
+
+in the memory:-
+
+static :-method area
+
+instance :- heap area
+
+
+
+								operators :-
+								==========
+								
+		a  (operators)+  b(operand)
+		
+		
+	ULTRA AB :-
+
+Unary Operators :-	 a--,a++,-a,--a,++a
+	
+
+Logical Operators :-&&,||
+
+Ternary operators :- ?():()	
+
+Relational Operators
+
+Assignment Operators
+
+Arithematic Operators
+
+Bitwise Operators
