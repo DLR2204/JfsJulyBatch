@@ -127,4 +127,74 @@ Assignment Operators
 
 Arithematic Operators
 
-Bitwise Operators
+Bitwise Operators					
+			
+			
+			Methods :- A set of statements altogether perfroms a task.
+			
+	syntax :-
+	
+				accessmodifier returntype metname(params..){
+				
+				//body
+				
+				}
+				
+				
+		static method :-
+		=============
+			syntax :-
+	
+				accessmodifier  static returntype metname(params..){
+				
+				//body
+				
+				}
+		
+		dynamic method:-
+		==============		
+				syntax :-
+	
+				accessmodifier returntype metname(params..){
+				
+				//body
+				
+				}	
+				
+				
+		class = var + method(group members+ member functions)	
+			
+		 classname obj; -------> obj declaration 	
+		 
+		 classname obj = new classname(); ------------> obj initialization
+		 
+		 
+		 
+	Inheritance :- Accquiring the parent class prop's to the child class.
+	===========
+	
+				extends 						implements
+				
+			class---->class
+			
+			
+		class A{-
+		100 methods
+		}
+		
+		calss B extends A{
+		10 method     ----------->110 methods
+		}
+		class C extends B{
+		}
+		
+		*M.I is supported in java @ class level
+		
+			
+			
+			
+			
+			
+			
+			
+			Abstraction;Ploymorphism;Encapsulation
