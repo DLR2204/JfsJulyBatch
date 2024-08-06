@@ -130,7 +130,8 @@ Arithematic Operators
 Bitwise Operators					
 			
 			
-			Methods :- A set of statements altogether perfroms a task.
+	Methods :- A set of statements altogether perfroms a task.
+	=========		based on syntax.2 types :-
 			
 	syntax :-
 	
@@ -173,6 +174,8 @@ Bitwise Operators
 	Inheritance :- Accquiring the parent class prop's to the child class.
 	===========
 	
+					*Code Reausability ---------> Performance
+	
 				extends 						implements
 				
 			class---->class
@@ -187,14 +190,140 @@ Bitwise Operators
 		}
 		class C extends B{
 		}
+		------------------------------------
+		class A{			class B
 		
-		*M.I is supported in java @ class level
+		add(a,b){			add(x,y){
 		
+		(a+b);}				(x*y);
+		
+		
+		class C extends A,B{
+		
+		add(3,4);--------->7,12
+
+		
+		
+		*M.I is not supported in java @ class level
+		
+		*M.I is supported in java @ interface level 
+
+		
+	methods types based on method body :- 2 types 
+	
+	(1)concrete method :- method with method body/Implementation
+	
+	
+				a.m returntype methoname(params..){
+				//body}
+	
+	
+	(2)abstract method :- method without methodBody/Implementation
+	
+	interface :-		a.m returntype methodname(params..);
+
+	abstract class :- a.m abstract return methodname(params);
+
+
+
+
+	class  = it's the only collection of concrete methods
+	
+	interface = it's the only collection of abstract methods
+	
+	abstract class = it is the combination of both concrete methods + abstract methods
+
+
+		
+	*Default parent class for every java file is "java.lang.Object"	
+
+	*Default package for every java file is "java.lang"
+			
+			
+		
+
+	Abstraction :- To Hide the business logic.
+	===========
+					*Security
+	
+	class ---(0%)     abstract class ---(50%)   interface----(100%)
+	
+	
+	
+	Ploymorphism :- 
+	=============
+	
+	(1)Method Overloading :- the method name is same but difference is in the parameters
+										(a)type of params..
+										(b)order of params..
+										(c)no:of params...
+	
+	(2)Method Overriding:- the method name is same but the body/Implementation is different
+	
+	
+						*Performance
+	
+	class Parent{
+	
+	1000Cr.()
+	
+	marraige(){
+	Kajol}
+	
+	methods()
+	
+	}
+	
+	
+	class Child extends Parent{
+	
+	1000Cr.()
+	
+	@Override
+	marraige(){
+	deepika
+	
+	}
+	
+	methods()
+	
+	}
+	
+	
+	Constructors :-To initiaze the objects
+	------------
+		
+		
+		classname obj = new classname();
+		
+		syntax:-
+				
+				a.m classname(){  ------->default constr
+				
+				
+				}
+				
+		patametrized costr :- 
+		
+				a.m classname(params..){
+				}
+	
+	* Constructor call must be the first statement in a constructor
+	
+	
+	Encapsulation:- Wraps up the personal data into a single unit/entity(class).
+				
+				* Security
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
 			
 			
 			
-			
-			
-			
-			
-			Abstraction;Ploymorphism;Encapsulation
