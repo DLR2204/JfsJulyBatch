@@ -317,6 +317,13 @@ Bitwise Operators
 				
 	
 	
+									Exception Handling:-
+									==================
+		
+		(1)To terminate our program in a normal way
+		
+		(2) To throw user friendly error msg's.
+	
 	
 	
 	
