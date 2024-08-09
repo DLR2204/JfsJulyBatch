@@ -326,9 +326,39 @@ Bitwise Operators
 	
 	
 	
+	Arrays:- it is container of variables which stores elements with similar data type.
+	
+	syntax:- 
+	
+	        (1) int arrname[][][] = {(1,2,1),(1,2,1),(1,2,1),(1,2,1)}
+			
+			(2)int arranme[] = new int[12];
+			
+				arrname[4] = 45;
+				
+			(3)int arranme[]=new int[]{1,2,4,4,6,6,7,7,8};
+	
+	limitations:-
+	
+		(1)It is fixed in size.
+		
+		(2)No utility methods
+		
+		(3)stores only homogenous elements.
+		
+		
+
+
+Collections framework:-
+============----------
 	
 	
-	
+	Advantages:-
+		(1)It is not fixed in size.
+		
+		(2)Lots of utility methods
+		
+		(3)stores only homogenous/heterogenous elements.
 	
 	
 			
