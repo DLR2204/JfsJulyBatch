@@ -349,18 +349,69 @@ Bitwise Operators
 		
 
 
-Collections framework:-
+Collections framework:-  java.util.*
 ============----------
 	
 	
 	Advantages:-
+	
 		(1)It is not fixed in size.
 		
 		(2)Lots of utility methods
 		
 		(3)stores only homogenous/heterogenous elements.
+		
+
+
+lang :- Comparable - CompareTo(); - cso
+
+util:-Comparator - Compare(a,b); - nso     apple,ball (a-b=>98-99 = -(-ve))
+
+
+Date ----->util
+	  
+	 java 8
+	 
+	 
+	 java.time
+	 
+	 LocalDate
+	 
+	 Local
 	
+			
+	File Handling:- java.io
+		
+		
+	  Create a file :- File 
+	  
+	  Write into a file :- FileWriter
+						
+						   BufferedWriter
+						   
+						   PrintWriter
+						   
+		Read from a file :- FileReader
+		
+							BufferedReader
+							
+							
+	String  name= "pen";		
 	
 			
-			
-			
+	String 					StringBuffer			StringBuilder		
+	immutable				mutable					mutable
+							sync					non-sync
+							
+										Database:-
+										=========
+		Data :- Raw info 
+		
+		Database :- Organised collection of the data.
+		
+											
+		book	563		
+		
+		pen		343
+		
+		orange   345
