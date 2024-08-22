@@ -415,3 +415,54 @@ Date ----->util
 		pen		343
 		
 		orange   345
+		
+		
+		rdbs :- tables =row(records) + columns(fields)
+		
+		sql:-
+		
+		quieres:- a command to do any operation in db.
+		
+		
+		DDL(Data Definition lang):-create,alter,rename,truncate,drop
+		
+		DML(Data Manipulation lang):- insert,update,delete
+		
+		DRL(Data Retrival lang):- select
+		
+		DCL(Data Control lang):-grant,revoke
+		
+		TCL(Transaction Control lang) :- commit,rollback.
+		
+		
+		
+	To create a user db:-
+
+		
+		(1)conn /as sysdba;
+		
+		(2)create user username identified by password;
+		
+		(3)grant connect, resource to username;
+		
+		(4)conn username/password;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
