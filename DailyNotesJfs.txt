@@ -424,15 +424,15 @@ Date ----->util
 		quieres:- a command to do any operation in db.
 		
 		
-		DDL(Data Definition lang):-create,alter,rename,truncate,drop
+		DDL(Data Definition lang):-create,alter,rename,truncate,drop		[Auto Commited]
 		
-		DML(Data Manipulation lang):- insert,update,delete
+		DML(Data Manipulation lang):- insert,update,delete					[Not Auto Committed]
 		
 		DRL(Data Retrival lang):- select
 		
 		DCL(Data Control lang):-grant,revoke
 		
-		TCL(Transaction Control lang) :- commit,rollback.
+		TCL(Transaction Control lang) :- commit(ctrl+s),rollback(ctrl+z).
 		
 		
 		
@@ -449,20 +449,171 @@ Date ----->util
 		
 		
 		
+		create table emp(name varchar2(10),id number(10),add varchar2(10));
+		
+		
+		truncate:- it will eraises all the records(rows)
+		
+		drop :- it will deletes the entire table from the db.
+		
+		delete :- we can delete the required rows. 
+		
+		
+									jdbc:-(java database connectivity)
+									
+	
+	(1)Loading the driver class 
+	
+	(2)Create the connection
+	
+	(3)Create the statement
+	
+	(4)Excute the statement
+	
+	(5)Close the connections
+		
+		
+		limitation :-
+		
+	
+	(1)Queries
+	
+	(2)need to create the table 
+	
+	(3)boiler plate code(duplicate code)
+	
+	(4)same file to logic,db prop's
+	
+	(5)Exception Handling
+	
+	
+	
+	
+	
+	jpa(java persistence API):-specification
+	=========================
+	
+	(1)No quieres
+	
+	(2)No table creation
+	
+	(3)No bolier plate code
+	
+	(4)separate files for db prop's,logic 
+	
+	(5)No exception handling
+	
+	
+	orm tools:-(Object Relational Mapping Tools)
+	
+	hibernate,ecllipse link,top link,ibatis.......
+
+(1)
+	
+	class  --------> table
+	
+	varaiables----->columns
+	
+	objects-------->rows
+		
+(2)Query equivalent methods
+
+		EntityManagerFactory
+
+			EntityManager
+			
+			
+			insert----persist()
+			
+			update----merge();
+			
+			select----find();
+			
+			delete---remove();
+		
+(3)xml file----->db prop's; 		
 		
 		
 		
 		
 		
+		Maven :- build tool 
 		
 		
+									Spring:-
+									======
+									
+		Def:-Spring is a non-invasive framework which is used to develop light-weighted
+							and loosley coupled web applications.
+	
+	
+				invasive :- It will rushes the programmer to implements  its api
+				
+				non-invasive:- It will not rushes the programmer to implements  its api
+				
+			
+			heavy-weighted:-
+			
+		class A{
+		1000 methods
+		}	
+		clss B extends A{
+		10 methods
+		}
+
+		clss C  extends B{
+		1 met ======>
+		
+		}			light-weighted :- with consice coding
 		
 		
+			
+			tightly -coupled :-if the dependencies are high between the classes
+			
+			loosley-coupled:- if there are no dependencies or low dependencies 
+			
+			
+			spring core,spring boot,spring rest,spring security,spring cloud.........
+				
+								Spring Core:-
+								============
+								
+								
+	Def:- It's to avoid the dependencies b/n the classes to make our app as loosley-coupled
+				
+			
+		containers:-These are used to create the objects 
+		----------	(1)BeanFactory
+					(2)ApplicationContext
+					
 		
+		Dependecy Injection:- Injecting data into the object
+		--------------------
+					(1)setter injection  :- <property></property>
+					(2)constructor injection :- <constructor-arg></constructor-arg>
+					(3)autowiring
 		
+		configurations:-
+		--------------
+					(1)xml configuration.
+					(2)Annotation configuration.
 		
-		
-		
-		
-		
-		
+				<beans>
+				
+				<bean></bean></beans>
+				
+				
+				
+				Spring Boot:-
+				============
+	
+	Advantages:-
+	----------
+	
+	(1)Embedded Server(tomcat:8080)
+	
+	(2)Starters :-set of jar files
+	
+	(3)Auto Configuration
+	
+	(4)Actuators:- health/status  of our application through end point urls.
