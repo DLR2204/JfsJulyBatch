@@ -617,3 +617,76 @@ Date ----->util
 	(3)Auto Configuration
 	
 	(4)Actuators:- health/status  of our application through end point urls.
+	
+	
+	
+	Controller :-This layer will interacts with the end user through http url's
+	
+	dao :- This layer will interact with the database through jpa hibernate methods
+	
+	services:- This layer will be the mediator between controller and dao layer
+	
+	
+	Spring REST :-
+	============
+	
+	
+	webservices :- Webservices are used to make interaction possible between two interoperable 
+					applications.
+					
+					
+		SOAP :-xml is only common lang
+		
+		
+		REST :-xml,json,txt,php,...... are the common lang 
+		
+		
+		
+							Frontend:-
+							=========
+							
+	HTML:- Hyper Text Markup Lng.
+    =====
+	
+	Linking the text to another webpage/website = Hyper text
+	
+	
+	website :- collection of webpages.3 types:-
+	
+				(1)static webpages:-changes or updations will not happens regularly
+				
+				(2)Dynamic webpages:-changes or updations will happens regulary
+				
+				(3)Server webpages:-All the data from the static nd dynamic webpages will get stored here.
+	
+	
+			.html
+			
+			
+			tags --> 2 types:-
+						(1)Container tag/pair:-<html></html>
+						
+						
+						(2)single/empty tag :- <br> or </br> or <br/>
+						
+						
+						
+			
+			<tag attributes="value"> Statement/content </tag>   ====>elements
+			
+			
+			
+			Lists:- <li></li>
+			======
+			
+			
+			Bullets :- unordered list ---->   <ul></ul>
+			
+			Numberings :- ordered list ----->   <ol></ol>
+			
+			
+			Links:- <a></a>
+			
+			(1)text linking
+			
+			(2)Img linking
