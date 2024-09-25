@@ -690,3 +690,72 @@ Date ----->util
 			(1)text linking
 			
 			(2)Img linking
+			
+			
+			elements:- (1)Blocking element   (2)Inline element
+			
+			
+			
+											CSS:-
+											===
+											
+		(1)Inline Styling :- using style attribute inside the tag
+		
+		(2)Internal Styling:- using <style> tag inside the head tag
+		
+		(3)External Styling:- attaching seperate .css file the html file
+		
+		
+		
+		colors:-
+		------
+		
+		(1)color name
+		
+		(2)hexadecimal -#113344      (r,g,b)	(00-ff)
+
+		(3)rgb -   rgb(123,45,23)(0-255)
+		
+		(4)rgb with alpha- rgb(23,45,54,(0-1))
+		
+		(5)hsl - hsl(343,23,45)(0-360,0-100%)
+		
+		(6)hsl with alpha -hsl(123,45,56,(0-1))
+		
+		
+		
+		
+		selectors:-
+		---------
+		
+		(1)tag name     -- h1,p,b
+		
+		(2)id based(#)	-- #idname
+		
+		(3)class based(.)--.clssname 
+		
+		(4)universal selector(*)
+		
+		
+									javascript:-
+									==========
+									
+		(1)Dynamic webpage and interative webpages
+		
+		(2)To change the Html content
+		
+		(3)To change the html attributes
+		
+		(4)To change the css styling
+		
+		(5)To hide the data in our webpage
+		
+		
+		
+		(1)script tag inside the head/body tag
+		
+		(2)By attaching .js file to our html document
+		
+		
+		
+		
