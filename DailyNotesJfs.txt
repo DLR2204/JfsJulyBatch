@@ -758,4 +758,45 @@ Date ----->util
 		
 		
 		
+		output in js:-
+		--------------
 		
+		(1)innerHTML ----based on the id the content will be displayed on the webpage(getElementById("id"))
+		
+		
+		(2)document.write("text") -------given text will be displayed on the webpage
+		
+		(3)window.alert("text")  --------given text will be displayed on the alert box
+		
+		(4)console.log("text ") -----given text is displayed on the console window.
+		
+		
+		
+		
+		varible :-
+		--------
+		
+						dt vrname = value;
+						
+						
+						var varname;			declaration
+						
+						var varname = value ;	initialization
+					
+
+		Datatypes:-
+		----------
+		
+		
+				numbers,string,boolean,object,undefined
+				
+				
+		function:-set of statements where altogether will performs the similar task.
+		--------
+		
+		
+				function functions(parameters){
+				
+				//function body
+				
+				}
