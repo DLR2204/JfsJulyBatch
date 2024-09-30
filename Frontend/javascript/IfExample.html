@@ -1,0 +1,42 @@
+<html>
+<head><title>IfExample</title>
+
+<style>
+*{background-color:black;
+
+	color:white
+
+}
+
+</style>
+<script>
+
+function age(){
+
+	if(document.getElementById("text").value>=18){
+		
+		document.write("<h1>You are Eligible to Vote.....")
+		
+		}
+	else{
+
+	window.alert("You are not eligible to vote...")	
+	}
+
+
+}
+
+
+</script>
+
+</head>
+<body>
+
+
+<h1>Enter the age:- <input type="text" id="text"></h1>
+
+<button type="button" onclick="age()">verify</button>
+
+
+</body>
+</html>
