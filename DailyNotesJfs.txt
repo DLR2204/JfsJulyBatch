@@ -800,3 +800,26 @@ Date ----->util
 				//function body
 				
 				}
+				
+				
+				
+										BootStrap:-
+										---------
+										
+			(1)CDN(content delivery network)
+			
+			(2)By downloading bootstrap files 
+			
+			
+			GridSystem:-
+			----------
+			
+			12 columns
+			
+			class= container
+			
+			class = row ,
+			
+			class=col
+			
+			
